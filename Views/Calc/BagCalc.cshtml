@@ -1,0 +1,24 @@
+﻿@using Lab11.Models;
+@model CalcModel;
+
+
+<div style="margin-left: 50px">
+    <h1>PassUsingViewBag</h1>
+
+    <p style="margin-bottom: -5px"><strong>Rand Value First: @ViewBag.A</strong></p>
+    <p><strong>Rand Value Second: @ViewBag.B</strong></p>
+
+    <p style="margin-bottom: -5px"><strong>Add</strong></p>
+    <p>@ViewBag.A + @ViewBag.B = @ViewBag.Sum</p>
+
+    <p style="margin-bottom: -5px"><strong>Sub:</strong></p>
+    <p>@ViewBag.A - @ViewBag.B = @ViewBag.Difference</p>
+
+    <p style="margin-bottom: -5px"><strong>Mult:</strong></p>
+    <p>@ViewBag.A * @ViewBag.B = @ViewBag.Product</p>
+
+    <p style="margin-bottom: -5px"><strong>Div:</strong></p>
+    <p>@ViewBag.A / @ViewBag.B = @ViewBag.Quotient</p>
+</div>
+
+

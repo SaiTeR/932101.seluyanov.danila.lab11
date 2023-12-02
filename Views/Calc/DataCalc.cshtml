@@ -1,0 +1,26 @@
+﻿@using Lab11.Models;
+@model CalcModel;
+
+
+
+<div style="margin-left: 50px">
+    <h1>PassUsingViewData</h1>
+
+    <p style="margin-bottom: -5px"><strong>Rand Value First: @ViewData["A"]</strong></p>
+    <p><strong>Rand Value Second: @ViewData["B"]</strong></p>
+
+    <p style="margin-bottom: -5px"><strong>Add</strong></p>
+    <p>@ViewData["A"] + @ViewData["B"] = @ViewData["Sum"]</p>
+
+    <p style="margin-bottom: -5px"><strong>Sub:</strong></p>
+    <p>@ViewData["A"] - @ViewData["B"] = @ViewData["Difference"]</p>
+
+    <p style="margin-bottom: -5px"><strong>Mult:</strong></p>
+    <p>@ViewData["A"] * @ViewData["B"] = @ViewData["Product"]</p>
+
+    <p style="margin-bottom: -5px"><strong>Div:</strong></p>
+    <p>@ViewData["A"] / @ViewData["B"] = @ViewData["Quotient"]</p>
+
+</div>
+
+
